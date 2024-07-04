@@ -1,0 +1,111 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family:  "Poppins", sans-serif;
+}
+header{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 30px;
+}
+nav li{
+    display: flex;
+    display: inline-block;
+    padding: 20px 25px;
+    margin-right: 40px;
+    font-weight: bold;
+    align-items: center;
+    gap: 5px;
+
+
+}
+.home{
+    background-color: orangered;
+    border-radius: 35px;
+    padding: 10px;
+}
+.fistimage{
+    margin-left: 20px;
+    width: 100px;
+}
+
+main{
+    margin-top: 50px;
+}
+
+.content-wrapper{
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 120px;
+}
+
+.item-1{
+    width: 100px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.item-2{
+    vertical-align: top;
+    margin-left: 600px;
+    margin-top: -223px;
+}
+.item-3{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.item-4{
+    font-size: 11px;
+}
+.boxsection{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+}
+#box1{
+    background-color: brown;
+    padding: 30px 15px;
+    text-align: center;
+   
+}
+#box2{
+    background-color: blue;
+    padding: 30px 15px;
+
+}
+#box3{
+    background-color: brown;
+    padding: 30px 15px;
+}
+.content2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.lastimage{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+    background-image: url(about_bg.jpg);
+    height: 58vh;
+    background-position:center;
+}
+.finalimage{
+    margin-left: 300px;
+    
+}
+.lastcontent{
+    margin-left: 100px;
+    margin-top: 50px;
+    color: white;
+    font-size:small;
+}
+
+
+
